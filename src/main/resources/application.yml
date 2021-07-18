@@ -1,0 +1,21 @@
+#server:
+#  port: 8082
+#
+#spring:
+#  application:
+#    name: eshop-storm
+#  kafka:
+#    consumer:
+#      bootstrap-servers:
+#        - 192.168.31.11:9092
+#        - 192.168.31.12:9092
+#        - 192.168.31.13:9092
+#      group-id: eshop-storm
+#      auto-offset-reset: latest
+#      enable-auto-commit: true
+#      auto-commit-interval: 100
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#    listener:
+#      type: batch
+
